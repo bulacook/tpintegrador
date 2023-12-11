@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rocketeer Reservas</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="shortcut icon" href="./IMAGENES/cohete.png" type="hamburguesa">
+    <script src="./JAVASCRIPT/validar.js"></script>
+</head>
+
+<body>
+    <header align="center">
+        <img width="150" height="auto" src="./IMAGENES/96b3c214485795.56284f9bd5640.png" alt="">
+        <img src="./IMAGENES/the rocketeer titulo.png" alt=""><br>
+        <h1 class="tituloh1 animate__backInRight">Reservas</h1>
+        <p></p>
+        <a class="nav" href="index.html">Inicio</a>
+        <a class="nav" href="quienessomos.html">Quiénes Somos</a>
+        <a class="nav" href="reservas.html">Reservas</a>
+        <a class="nav" href="sucursales.html">Sucursales</a>
+    </header><br><br><br>
+    <main>
+    <div id="posicion">
+        <div id="reservas">
+            <form onsubmit="return validar();">
+
+
+                <label for="fecha">Fecha</label><br>
+                <input type="date" name='fecha' id="fecha" value=""><br>
+                <div id="validar_fecha" style="color:white;"></div>
+                <label for="hora">Hora</label><br>
+                <input type="time" list="horarios" id="hora" value=""><br>
+                <div id="validar_hora" style="color:white;"></div>
+                <label for="personas">Tamaño de grupo</label><br>
+                <input type="number" id="personas" value=""><br><br>
+                <div id="validar_personas" style="color:white;"></div>
+                <button type="submit">Reservar</button>
+
+        </div>
+    </div>
+        </form>
+        <datalist id="horarios">
+            <option value="19:00"></option>
+            <option value="19:30"></option>
+            <option value="20:00"></option>
+            <option value="20:30"></option>
+            <option value="21:00"></option>
+            <option value="21:30"></option>
+            <option value="22:00"></option>
+            <option value="22:30"></option>
+            <option value="23:00"></option>
+        </datalist>
+
+
+    </main><br>
+
+    <footer>
+        <div class="footer">
+            <div id="telefonos">
+                <h3 class="telefono">Telefonos:</h3>
+                <h3 class="telefono">02965-465666</h3>
+                <h3 class="telefono">02965-465667</h3>
+            </div>
+            <h2>Nuestras Redes</h2>
+            <div class="redes">
+                
+                <a class="red" href="https://www.instagram.com/rocketfood/?hl=es"><img src="./IMAGENES/instagram (3).png"
+                        alt="instagram"></a>
+                <a class="red" href="https://www.facebook.com/rocketfoodeu/photos/"><img src="./IMAGENES/facebook (1).png"
+                        alt="facebook"></a>
+                <a class="red" href="https://web.whatsapp.com/"><img src="./IMAGENES/whatsapp.png" alt="whatsapp"></a>
+                <a class="red" href="https://web.telegram.org/k/"><img src="./IMAGENES/telegrama (1).png"
+                        alt="telegram"></a>
+            </div>
+            </div><br><br>
+        <hr>
+        <p class="creditos">Todos los derechos reservados 2023</p>
+    </footer>
+    
+</body>
+
+</html>

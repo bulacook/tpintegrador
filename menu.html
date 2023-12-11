@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./CSS/estilos.css">
+<link rel="shortcut icon" href="IMAGENES/cohete.png" type="cohete">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rocketeer Menu</title>
+</head>
+<body>
+    <header align="center">
+        <img width="150" height="auto" src="./IMAGENES/96b3c214485795.56284f9bd5640.png" alt="">
+        <img src="./IMAGENES/the rocketeer titulo.png" alt=""><br>
+        <h1>Menú</h1>
+<a class="nav" href="index.html">Inicio</a>
+<a class="nav" href="quienessomos.html">Quiénes Somos</a>
+<a class="nav" href="reservas.html">Reservas</a>
+<a class="nav" href="sucursales.html">Sucursales</a><br><br><br><br>
+
+
+
+    </header><br><br>
+    <main>
+        <div id="app" >
+            <div class="combo" v-for="elemento in productos">
+                <h2>{{elemento.plato}}</h2>
+                <p>{{elemento.descripcion}}</p>
+                <img id="imagenes" v-bind:src="elemento.foto" :alt="elemento.plato"><br><br>
+                <a id="loquiero" href="">Lo quiero!</a>
+            </div>
+
+
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./JAVASCRIPT/main.js"></script>
+</body>
+</html>

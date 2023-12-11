@@ -1,0 +1,62 @@
+{
+
+    "carta":[
+        {
+            "id":1,
+            "plato": "Classic Rocketeer",
+            "descripcion": "Hamburguesa cuarto de libra con cheddar, pepino, hojas verdes y cebolla condimentada",
+            "foto":"https://img.freepik.com/fotos-premium/enorme-sandwich-hamburguesa-ternera-fondo-ahumado_893847-85.jpg"
+        },
+        {
+            "id":2,
+            "plato": "Rocketeer Grill Burger",
+            "descripcion": "Hamburguesa ala parrilla con rúcula y cebollas moradas",
+            "foto":"https://img.freepik.com/fotos-premium/enorme-sandwich-hamburguesa-ternera-fondo-ahumado_893847-90.jpg"
+        },
+        {
+            "id":3,
+            "plato": "Rocketeer Green Burger",
+            "descripcion": "Hamburguesa cuarto de libra con hojas verdes y salsa especial de mostaza",
+            "foto":"https://img.freepik.com/fotos-premium/hamburguesa-ternera-plancha-queso-tomate-generada-ia_25030-56960.jpg"
+        },
+        {
+            "id":4,
+            "plato": "Mega Rocketeer",
+            "descripcion": "Hamburguesa cuarto de libra con doble queso cheddar y bacon crocante",
+            "foto":"https://img.freepik.com/fotos-premium/hamburguesa-ternera-jugosa-queso-fundido-tocineta-crujiente_839976-45.jpg"
+        },
+        {
+            "id":5,
+            "plato": "Lomito 1 Rocketeer",
+            "descripcion": "Lomito ahumado con hojas verdes y salsa especial Rocketeer en pan tipo campo",
+            "foto":"https://media.istockphoto.com/id/495772560/es/foto/filete-de-cerdo-s%C3%A1ndwich.jpg?s=612x612&w=0&k=20&c=Czh1tluHuOnk3TUwjIqNGPo8L1KUPLe9tHAK_AQFKYI="
+        },
+        {
+            "id":6,
+            "plato": "Lomito 2 Rocketeer",
+            "descripcion": "Lomito ahumado con cebolla caramelizada y morrones asados",
+            "foto":"https://media.istockphoto.com/id/1291793761/es/foto/sandwich-de-cerdo-asado-con-pimientos-a-la-parrilla-cebolla-y-mostaza-granulada-en-pan-ciabatta.jpg?s=612x612&w=0&k=20&c=Ev2WWYSMFoNnvI27U45OarGbdmz--OUwEanS-V0SnD0="
+        },
+        {
+            "id":7,
+            "plato": "Rocketeer Caprichosa",
+            "descripcion": "Mozzarella, portobellos, alcauciles y aceitunas negras",
+            "foto":"https://media.istockphoto.com/id/1205494126/es/foto/pizza-capricciosa-pizza-toda-capricciosa-pizza-italiana-tradicional-sobre-fondo-de-madera.jpg?s=612x612&w=0&k=20&c=bKAbq35T0_H2giosbb-s0fz8mbEDyi1LoTalopR5cRM="
+        },
+        {
+            "id":8,
+            "plato": "Margarita Rocketeer",
+            "descripcion": "Clásica pizza Napolitana con mozzarella de búfala y albahaca",
+            "foto":"https://media.istockphoto.com/id/539651044/photo/neapolitan-pizza.webp?b=1&s=170667a&w=0&k=20&c=3rcKzuO3SqQgFfGYZihqWOlM6ysE3aRNos7j7BeEuUo="
+        },
+        {
+            "id":9,
+            "plato": "Burrito Rocketeer",
+            "descripcion": "carne de cerdo braseada y porotos negros, acompañado por tres salsas",
+            "foto":"https://www.gastrolabweb.com/u/fotografias/m/2021/5/16/f608x342-13301_43024_126.jpg"
+        }
+
+    ]
+
+
+}
